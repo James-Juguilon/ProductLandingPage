@@ -1,1 +1,8 @@
 /* CSS */
+#nav-bar li{
+  list-style: none;
+}
+*{
+  background-color: black;
+  color: white;
+}
