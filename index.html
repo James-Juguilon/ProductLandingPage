@@ -1,19 +1,20 @@
 <!-- HTML -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
- </head>
- <body>
+</head>
+<body>
+
   <header>
     <div>
       <img src="https://www.ibanez.com/images/logo.png" alt="ibanez logo">
     </div>
+    <button id="menu-toggle">&#9776;</button>
     <nav id="nav-bar">
       <ul>
         <li><a href="#home">Home</a></li>
@@ -23,127 +24,154 @@
       </ul>
     </nav>
   </header>
+
   <section id="home">
     <h1><span>STEVE</span> VAI</h1>
     <img src="https://www.ibanez.com/common/product_artist_file/file/a_main_SteveVai.jpg" alt="Steve Vai">
     <h3>"Some guitars are built for performance, some for aesthetic. These instruments are the best of both worlds... and perhaps the universe!"</h3>
   </section>
+
   <main id="main">
+
     <section id="main-section">
       <header id="product">
         <h2>JEM7VP Model</h2>
         <div class="guitar-container">
-          <img src="https://www.ibanez.com/common/product_artist_file/file/p_region_JEM7VP_WH_1P_01.png" alt="steve vai signiture guitar">
+          <img src="https://www.ibanez.com/common/product_artist_file/file/p_region_JEM7VP_WH_1P_01.png" alt="steve vai signature guitar">
         </div>
       </header>
       <h3>Specs</h3>
-        <ul>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Neck Type</div>
-            <div class="product-spec-table-li">Wizard 5pc Maple/Walnut neck w/KTS™ TITANIUM rods</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Top/Back/Body</div>
-            <div class="product-spec-table-li">Alder Body</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Fretboard</div>
-            <div class="product-spec-table-li">Ebony fretboard/Tree of Life inlay</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Fret</div>
-            <div class="product-spec-table-li">Jumbo frets/Premium fret edge treatment</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Number of Frets</div>
-            <div class="product-spec-table-li">24</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Bridge</div>
-            <div class="product-spec-table-li">Edge tremolo bridge</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">String Space</div>
-            <div class="product-spec-table-li">10.8mm</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Neck Pickup</div>
-            <div class="product-spec-table-li">DiMarzio® Evolution® (H) neck pickup(Passive/Ceramic)</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Middle Pickup</div>
-            <div class="product-spec-table-li">DiMarzio® Evolution® (S) middle pickup(Passive/Alnico)</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Bridge Pickup</div>
-            <div class="product-spec-table-li">DiMarzio® Evolution® (H) bridge pickup(Passive/Ceramic)</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Factory Tuning</div>
-            <div class="product-spec-table-li">1E,2B,3G,4D,5A,6E</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Strings</div>
-            <div class="product-spec-table-li">D'Addario® EXL120</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">String Gauge</div>
-            <div class="product-spec-table-li">.009/.011/.016/.024/.032/.042</div>
-          </li>
-          <li class="product-spec-table">
-            <div class="product-spec-table-li">Hardware Color</div>
-            <div class="product-spec-table-li">Gold</div>
-          </li>
-        </ul>
+      <ul>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Neck Type</div>
+          <div class="product-spec-table-li">Wizard 5pc Maple/Walnut neck w/KTS™ TITANIUM rods</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Top/Back/Body</div>
+          <div class="product-spec-table-li">Alder Body</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Fretboard</div>
+          <div class="product-spec-table-li">Ebony fretboard/Tree of Life inlay</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Fret</div>
+          <div class="product-spec-table-li">Jumbo frets/Premium fret edge treatment</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Number of Frets</div>
+          <div class="product-spec-table-li">24</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Bridge</div>
+          <div class="product-spec-table-li">Edge tremolo bridge</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">String Space</div>
+          <div class="product-spec-table-li">10.8mm</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Neck Pickup</div>
+          <div class="product-spec-table-li">DiMarzio® Evolution® (H) neck pickup (Passive/Ceramic)</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Middle Pickup</div>
+          <div class="product-spec-table-li">DiMarzio® Evolution® (S) middle pickup (Passive/Alnico)</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Bridge Pickup</div>
+          <div class="product-spec-table-li">DiMarzio® Evolution® (H) bridge pickup (Passive/Ceramic)</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Factory Tuning</div>
+          <div class="product-spec-table-li">1E, 2B, 3G, 4D, 5A, 6E</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Strings</div>
+          <div class="product-spec-table-li">D'Addario® EXL120</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">String Gauge</div>
+          <div class="product-spec-table-li">.009/.011/.016/.024/.032/.042</div>
+        </li>
+        <li class="product-spec-table">
+          <div class="product-spec-table-li">Hardware Color</div>
+          <div class="product-spec-table-li">Gold</div>
+        </li>
+      </ul>
     </section>
+
     <section id="main-section">
       <header class="features">
         <h2 id="features">Features</h2>
       </header>
       <div>
-        <h3>Ebony Fretboard</h3>
-          <p>Ebony produces tight lows and mid range with a strong attack in the high end and features a quick response and rich sustain</p>
-          <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_JEM7VP_fretboard.jpg" alt="ebony fretboard">
+        <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_JEM7VP_fretboard.jpg" alt="ebony fretboard">
+        <div class="feature-text">
+          <h3>Ebony Fretboard</h3>
+          <p>Ebony produces tight lows and mid range with a strong attack in the high end and features a quick response and rich sustain.</p>
+        </div>
       </div>
       <div>
-        <h3>Monkey Grip</h3>
-        <p>One of the most recognizable features on the fantastic JEM: Steve Vai's signature monkey grip. Crank your amp up, grab that baby and hold on for dear life</p>
         <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_JEM7VP_MonkyGrip.jpg" alt="monkey grip">
+        <div class="feature-text">
+          <h3>Monkey Grip</h3>
+          <p>One of the most recognizable features on the fantastic JEM: Steve Vai's signature monkey grip. Crank your amp up, grab that baby and hold on for dear life.</p>
+        </div>
       </div>
       <div>
-        <h3>The Wizard 5pc Maple/Walnut neck w/KTS™ TITANIUM rods</h3>
-        <p>The Wizard 5pc Maple/Walnut neck w/KTS™ TITANIUM rods provides absolute rock solid stability provides extra-smooth playing</p>
         <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_JEM7VP_neck.jpg" alt="guitar neck">
+        <div class="feature-text">
+          <h3>Wizard 5pc Maple/Walnut Neck</h3>
+          <p>The Wizard 5pc Maple/Walnut neck w/KTS™ TITANIUM rods provides absolute rock solid stability and extra-smooth playing.</p>
+        </div>
       </div>
       <div>
-        <h3>DiMarzio® Evolution® Pickups</h3>
-        <p>Steve Vai's Signature features DiMarzio® Evolution® humbuckers in the bridge and neck positions and a DiMarzio® Evolution® single coil in the middle position for a wide array of rock tones</p>
         <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_JEM7VP_pu.jpg" alt="guitar pickup">
+        <div class="feature-text">
+          <h3>DiMarzio® Evolution® Pickups</h3>
+          <p>Steve Vai's Signature features DiMarzio® Evolution® humbuckers in the bridge and neck positions and a single coil in the middle for a wide array of rock tones.</p>
+        </div>
       </div>
       <div>
-        <h3>Edge Tremolo Bridge w/Lion's Claw tremolo cavity</h3>
-        <p>JEM7VP will let you scream or moan with the Edge bridge and groundbreaking Lion's Claw tremolo cavity, allowing pitches to be radically raised or lowered without obstruction</p>
         <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_JEM7VP_bridge.jpg" alt="guitar bridge">
+        <div class="feature-text">
+          <h3>Edge Tremolo Bridge w/ Lion's Claw Cavity</h3>
+          <p>JEM7VP will let you scream or moan with the Edge bridge and Lion's Claw tremolo cavity, allowing pitches to be radically raised or lowered without obstruction.</p>
+        </div>
       </div>
       <div>
-        <h3>Premium Fret Edge Treatment</h3>
-        <p>Premium Fret Edge Treatment offer super smooth,comfortable performance.</p>
         <img src="https://www.ibanez.com/usa/products/detail/news_file/file/feat_339.jpg" alt="fret edge">
+        <div class="feature-text">
+          <h3>Premium Fret Edge Treatment</h3>
+          <p>Premium Fret Edge Treatment offers super smooth, comfortable performance.</p>
+        </div>
       </div>
     </section>
+
     <section id="main-section">
       <header class="social-media">
         <h2 id="social-media">Follow Us</h2>
       </header>
-      <div>
-        <h3><a href="https://www.instagram.com/officialibanezguitars/"><i class="fa-brands fa-instagram"></i>Visit Official Instagram</a></h3>
-        <h3><a href="https://facebook.com/ibanezguitars"><i class="fa-brands fa-facebook-f"></i>Visit Official Facebook</a></h3>
-        <h3><a href="https://www.youtube.com/user/IbanezOfficial"><i class="fa-brands fa-youtube"></i>Visit Official Youtube</a></h3>
+      <div id="social-links">
+        <a href="https://www.instagram.com/officialibanezguitars/" target="_blank">
+          <i class="fa-brands fa-instagram"></i> Visit Official Instagram
+        </a>
+        <a href="https://facebook.com/ibanezguitars" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i> Visit Official Facebook
+        </a>
+        <a href="https://www.youtube.com/user/IbanezOfficial" target="_blank">
+          <i class="fa-brands fa-youtube"></i> Visit Official Youtube
+        </a>
       </div>
     </section>
+
   </main>
- </body>
- <footer>
-  <p>Copyright © 2026 Ibanez guitars. All right reserved. Products and specifications are subject to change without notice</p>
- </footer>
- </html>
+
+  <footer>
+    <p>Copyright © 2026 Ibanez guitars. All rights reserved. Products and specifications are subject to change without notice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
