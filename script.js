@@ -10,7 +10,7 @@ document.querySelectorAll('#nav-bar a').forEach(function(link) {
   });
 });
 
-// Mobile hamburger menu toggle
+// Mobile hamburger menu toggle for mobile/phone
 var menuToggle = document.getElementById('menu-toggle');
 var navList = document.querySelector('#nav-bar ul');
 
@@ -18,7 +18,7 @@ menuToggle.addEventListener('click', function() {
   navList.classList.toggle('active');
 });
 
-// Close menu when a nav link is clicked on mobile
+// Close menu when a nav link is clicked on mobile/phone
 document.querySelectorAll('#nav-bar a').forEach(function(link) {
   link.addEventListener('click', function() {
     navList.classList.remove('active');
